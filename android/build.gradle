@@ -25,6 +25,9 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+
+    namespace "com.example.social_network_share"
+    
     compileSdkVersion 31
 
     compileOptions {
